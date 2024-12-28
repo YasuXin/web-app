@@ -1,0 +1,1 @@
+import{_ as e,o as t,a as n,b as s}from"./index-HbAlBi_T.js";const a={},c={class:"not-found"};function d(r,o){return t(),n("div",c,o[0]||(o[0]=[s("h1",null," 404 Not Found ",-1)]))}const f=e(a,[["render",d],["__scopeId","data-v-060d709f"]]);export{f as default};
