@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/img/cat_icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAKUU CAT CAFE</title>
+</head>
+<body>
+<div id="header"></div>
+<div id="app" v-cloak>
+
+    <!-- App.vueを表示 -->
+
+</div>
+
+<div id="ham-menu"></div> <!-- ハンバーガーメニューのテレポート先 -->
+<div id="illust"></div> <!-- イリオモテヤマネコのイラストのテレポート先 -->
+<div id="cats-circle"></div> <!--正円エフェクトのテレポート先 -->
+<div id="modal1"></div> <!-- アクセスのモーダルのテレポート先 -->
+<div id="submit-message"></div> <!-- メッセージ送信ダミーのテレポート先 -->
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
+
+<style>
+    /* イラストのアニメーション ここから */
+    @media(max-width: 767.5px) {
+        #illust {
+        display: none;
+        }
+    }
+</style>
