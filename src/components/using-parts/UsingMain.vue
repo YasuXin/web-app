@@ -2,13 +2,6 @@
 import TitleBox from '@/components/TitleBox.vue'
 import Entry from '@/components/using-parts/Entry.vue'
 import Drink from "@/components/using-parts/Drink.vue";
-import {ref} from "vue";
-
-
-const data = ref([
-  { id: 1, image: '/public/img/drink1.jpg', alt: 'drink1', name: '青いマタタビドリンク', price: '無料　2杯目以降は666,666円', explain: 'ブルーハワイなのか、違うのか、謎のドリンク。'},
-  { id: 2, image: '/public/img/drink2.jpg', alt: 'drink2', name: 'マタタビカフェラテ', price: '無料　2杯目以降は666,666円', explain: 'マタタビ入りのカフェラテだと思う。'},
-])
 
 </script>
 
@@ -33,7 +26,8 @@ const data = ref([
 
     <div class="menu-parent">
       <transition-group name="fade" appear>
-        <Drink v-for="drink in data" :key="drink.id" :src="drink.image" :alt="drink.alt" :name="drink.name" :price="drink.price" :explain="drink.explain"></Drink>
+        <Drink src="/img/drink1.jpg" alt="青いマタタビドリンク" name="青いマタタビドリンク" price="無料　2杯目以降は666,666円" explain="ブルーハワイなのか、違うのか、謎のドリンク。"></Drink>
+        <Drink src="/img/drink2.jpg" alt="マタタビカフェラテ" name="マタタビカフェラテ" price="無料　2杯目以降は666,666円" explain="マタタビ入りのカフェラテだと思う。"></Drink>
       </transition-group>
     </div>
 
