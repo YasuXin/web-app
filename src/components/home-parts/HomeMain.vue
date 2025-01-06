@@ -117,7 +117,7 @@ import ToAbout from "@/components/home-parts/ToAbout.vue";
 }
 
 /* SP */
-@media(max-width: 500px) and (min-height: calc(100vw * 1.6)) {
+@media(max-width: 500px) and (min-height: calc(100vw * 1.2)) {
   .cat-hand-l {
     display: none;
   }

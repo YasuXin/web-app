@@ -100,7 +100,7 @@ span.button-txt {
 }
 
 /* SP */
-@media(max-width: 500px) and (min-height: calc(100vw * 1.6)) {
+@media(max-width: 500px) and (min-height: calc(100vw * 1.2)) {
   .h-button{
     height: var(--sp-h-button-height);
   }

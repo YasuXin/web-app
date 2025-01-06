@@ -122,7 +122,7 @@ function closeModal() {
 }
 
 /* SP */
-@media(max-width: 500px) and (min-height: calc(100vw * 1.6)) {
+@media(max-width: 500px) and (min-height: calc(100vw * 1.2)) {
   .modal-container {
     font-size: var(--sp-font-size-h2);
     width: 80vw;

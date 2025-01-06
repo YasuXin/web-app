@@ -67,7 +67,7 @@ import Drink from "@/components/using-parts/Drink.vue";
 }
 
 /* SP */
-@media(max-width: 500px) and (min-height: calc(100vw * 1.6)) {
+@media(max-width: 500px) and (min-height: calc(100vw * 1.2)) {
   .menu-parent {
     flex-direction: column;
   }

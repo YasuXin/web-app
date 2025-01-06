@@ -70,7 +70,7 @@
 }
 
 /* SP */
-@media(max-width: 500px) and (min-height: calc(100vw * 1.6)) {
+@media(max-width: 500px) and (min-height: calc(100vw * 1.2)) {
   .text-box {
     width: calc(100vw - 20px);
     padding: 10px;
