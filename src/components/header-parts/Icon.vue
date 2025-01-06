@@ -27,15 +27,18 @@
 }
 .logo-txt {
   display: inline-block;
-  font-size: 1.9rem;
+  font-size: 2.1rem;
   color: var(--color-white);
   padding-top: 10px;
-  font-family: "Arial Narrow";
+
 }
 
 @media (max-width: 416.5px) {
   .h-icon {
     display: none;
+  }
+  .logo-txt {
+    font-size: 2rem;
   }
 }
 

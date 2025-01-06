@@ -83,7 +83,7 @@ const props = defineProps({
     width: 36px;
     height: 36px;
     font-size: 50px;
-    line-height: 38px;
+    line-height: 35px;
     vertical-align: middle;
     color: #444444;
   }
