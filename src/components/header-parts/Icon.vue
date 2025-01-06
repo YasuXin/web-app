@@ -10,7 +10,8 @@
       </div>
 
       <div class="h-icon-txt">
-        <span class="logo-txt">KAKUU CAT CAFE</span>
+        <img class="logo-txt logo-w" src="/public/img/logo.png" alt="KAKUU NEKO CAFE" width="280">
+        <img class="logo-txt logo-n" src="/public/img/logo.png" alt="KAKUU NEKO CAFE" width="240">
       </div>
 
     </div>
@@ -26,19 +27,24 @@
   align-items: center;
 }
 .logo-txt {
+  padding-top: 15px;
+}
+.logo-w {
   display: inline-block;
-  font-size: 2.1rem;
-  color: var(--color-white);
-  padding-top: 10px;
-
+}
+.logo-n {
+  display: none;
 }
 
 @media (max-width: 416.5px) {
   .h-icon {
     display: none;
   }
-  .logo-txt {
-    font-size: 2rem;
+  .logo-w {
+    display: none;
+  }
+  .logo-n {
+    display: inline-block;
   }
 }
 
