@@ -87,7 +87,7 @@ const route = useRoute()
 }
 
 /* SP */
-@media(max-width: 500px) and (min-height: calc(100vw * 1.72)) {
+@media(max-width: 500px) and (min-height: calc(100vw * 1.6)) {
   .please-click {
     width: 100%;
     height: 20vh;

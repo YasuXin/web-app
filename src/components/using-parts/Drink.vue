@@ -127,7 +127,7 @@ p {
 }
 
 /* SP */
-@media(max-width: 500px) and (min-height: calc(100vw * 1.72)) {
+@media(max-width: 500px) and (min-height: calc(100vw * 1.6)) {
   .menu {
     width: 291px;
   }

@@ -78,7 +78,7 @@ caption {
 }
 
 /* SP */
-@media(max-width: 500px) and (min-height: calc(100vw * 1.72)) {
+@media(max-width: 500px) and (min-height: calc(100vw * 1.6)) {
   .text-box {
     width: 80vw;
     height: 80vw;

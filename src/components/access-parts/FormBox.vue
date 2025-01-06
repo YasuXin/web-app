@@ -111,7 +111,7 @@ input[type="text"], input[type="email"] {
 }
 
 /* SP */
-@media(max-width: 500px) and (min-height: calc(100vw * 1.72)) {
+@media(max-width: 500px) and (min-height: calc(100vw * 1.6)) {
   input[type="text"], input[type="email"] {
     width: 100%;
   }

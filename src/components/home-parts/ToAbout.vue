@@ -62,7 +62,7 @@ a:hover {
 }
 
 /* SP */
-@media(max-width: 500px) and (min-height: calc(100vw * 1.72)) {
+@media(max-width: 500px) and (min-height: calc(100vw * 1.6)) {
   a {
     display: inline-block;
     width: 100%;
