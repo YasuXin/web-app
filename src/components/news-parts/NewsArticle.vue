@@ -55,10 +55,10 @@ p.link {
 }
 
 /* SP */
-@media(max-width: 500px) and (min-height: calc(100vw * 1.72)) {
+@media(max-width: 500px) and (min-height: calc(100vw * 1.2)) {
   .news-text-box {
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     padding: 2vh 3vw;
   }
   .title {
