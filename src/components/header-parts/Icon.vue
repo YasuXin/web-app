@@ -27,7 +27,7 @@
 }
 .logo-txt {
   display: inline-block;
-  font-size: 2.1rem;
+  font-size: 1.9rem;
   color: var(--color-white);
   padding-top: 10px;
   font-family: "Arial Narrow";
