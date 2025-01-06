@@ -18,7 +18,7 @@ const props = defineProps({
     <button class="ham-button" @click="onClick">
       <Transition name="ham-icon">
         <span v-if="toggle" class="ham-img ham-cross">
-          ×
+          <img src="/public/img/batu.png" alt="" width="36">
         </span>
         <span v-else class="ham-img">
           <img src="/img/bars_24_2.png" alt="hamburger" width="36" height="36" />
@@ -82,10 +82,6 @@ const props = defineProps({
     display: inline-block;
     width: 36px;
     height: 36px;
-    font-size: 50px;
-    line-height: 35px;
-    vertical-align: middle;
-    color: #444444;
   }
 }
 
