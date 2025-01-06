@@ -74,8 +74,9 @@ const dataList = ref(routeData)
     align-items: center;
     text-align: center;
     height: var(--sp-footer-box-height);
-    border-bottom: rgba(100,100,100,0.3) 1px solid;
+    border-bottom: none;
     width: 100%;
+    padding: 0;
   }
   .f-small {
     font-size: var(--sp-font-size-small);

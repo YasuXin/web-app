@@ -39,7 +39,7 @@ const currentRoute = store.page
 <style>
 :root {
   --f-button-flex-basis: 75px;
-  --sp-f-button-height: 70px;
+  --sp-f-button-height: 100%;
   --sp-f-button-width: 100%;
   --f-border-color: rgba(100,100,100,0.5) 1px solid;
   --sp-font-size-f-button: 3vh;
@@ -91,6 +91,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
   }
   .f-button-text {
     font-size: var(--sp-font-size-f-button);
